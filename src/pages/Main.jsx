@@ -32,7 +32,7 @@ function Main() {
         <div className="main">
             <div className="mainContent">
                 <div className="mainMylinks">
-                    <MyLinks />
+                    <MyLinks side={'leftLinks'}/>
                 </div>
                 <div className="textContainer">
                     <MainText />
@@ -43,7 +43,6 @@ function Main() {
                 </div>
             </div>
             <Navbar />
-            <Weather />
         </div>
 }
         </>

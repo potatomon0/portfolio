@@ -11,7 +11,7 @@ import Project4 from './pages/Project4'
 function App() {
   const { getIP } = useContext(AppContext)
   useEffect(() => {
-    getIP();
+    // getIP();
   }, [])
 
   return (

@@ -7,7 +7,6 @@ const AppContextProvider=(props)=>{
     const [data,setData]=useState(null)
     const [count,setCount] = useState(0)
     const [open,setOpen]=useState(false)
-    const [pjInfo,setPjInfo] = useState(null)
     const next = ()=>{
         console.log(count)
         setCount(count+1)
@@ -26,7 +25,7 @@ const AppContextProvider=(props)=>{
         setData(weatherData)
     }
     return (
-        <AppContext.Provider value={{data,setData,getIP,count,setCount, next, previous,open,setOpen,pjInfo,setPjInfo}}>
+        <AppContext.Provider value={{data,setData,getIP,count,setCount, next, previous,open,setOpen}}>
             {props.children}
         </AppContext.Provider>
     )

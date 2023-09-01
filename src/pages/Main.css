@@ -1,22 +1,22 @@
 @media (min-width: 451px) {
     html,body{
-        /* height:100%;
-        width:100%; */
         background-color: #071330;
+        height:100%;
+        width:100%;
     }
     .main {
-        display: flex;
-        flex-direction: column;
-        /* border: solid red; */
+        border: solid red;
         background-color: #071330;
-        height: 612px;
-        justify-content: space-between;
+        height:600px;
+        /* align-content: center;
+        justify-content: space-between; */
     }
 
     .mainContent {
-        /* border: solid green; */
+        border: solid green;
         display: flex;
         justify-content: space-between;
+        width:100%;
         height: 100%;
     }
 
@@ -25,23 +25,23 @@
     }
 
     .mainMylinks {
-        /* border: solid pink; */
-        width: 200px;
+        border: solid pink;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width:15%;
     }
 
-    .myLinks {
+    .leftLinks{
         display: flex;
         flex-direction: column;
         /* border: solid orange; */
         justify-content: center;
         align-items: baseline;
-        animation: linkFadein .8s;
+        animation: linkFadeinLeft .8s;
     }
 
-    @keyframes linkFadein {
+    @keyframes linkFadeinLeft {
         0% {
             opacity: 0;
             transform: translateX(-20px);
@@ -54,12 +54,14 @@
     }
 
     .textContainer {
+        border:solid red;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         font-size: 13px;
-        color: #C3CEDA
+        color: #C3CEDA;
+        width:70%;
     }
 
     .mainTextP1 {
@@ -69,7 +71,6 @@
         overflow: hidden;
         animation: mainText 2s steps(45, end), blink-caret 0.5s step-end infinite alternate;
     }
-
     .mainTextP2 {
         width: 450px;
         white-space: nowrap;
@@ -78,7 +79,6 @@
         animation-fill-mode: both;
         animation-delay: 2s;
     }
-
     .mainTextP3 {
         width: 450px;
         white-space: nowrap;
@@ -108,9 +108,8 @@
     }
 
     .rightArrowBox {
-        /* border: solid red; */
+        border: solid red;
         display: flex;
-        height: 100%;
         width: 200px;
         flex-direction: column;
         justify-content: center;

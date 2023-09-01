@@ -4,9 +4,10 @@ import user from '../img/user2.png'
 import github from '../img/github.png'
 import linkedin from '../img/linkedin.png'
 
-function MyLinks() {
+function MyLinks(props) {
+    let side = props.side
     return (
-        <div className="myLinks">
+        <div className={side}>
             <div className='link'>
                 <a href="https://www.linkedin.com/in/hhuang8/" target='_blank' rel="noopener noreferrer">
                 <img src={linkedin} alt="" className='linkIcon'/></a>

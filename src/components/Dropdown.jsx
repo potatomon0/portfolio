@@ -24,7 +24,7 @@ function Dropdown(props){
   },[])
   return (
     // event.target ? error:
-    <div className={props.rightLinks}>
+    <div className='dropdown'>
       <div className="menu-container" ref={menuRef}>
         <div className="menu-trigger" onClick={()=>{setOpen(!open)}}>
           <img src={dropdownIcon} alt="" />
