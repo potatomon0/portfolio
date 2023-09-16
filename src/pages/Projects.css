@@ -1,43 +1,30 @@
 @media (min-width:451px) {
 
-    body {
-        /* height: 100%; */
-        /* height:100%; */
-        display:flex;
-        align-items: center;
-        width: 100%;
-        background-color: #071330;
-        border:solid red;
-    }
-
     .projectsMain {
-        border: solid white;
+        /* border: solid white; */
         background-color: #071330;
         color: #C3CEDA;
         display: flex;
-        height:100%;
+        height: 100vh;
         /* justify-content: space-between; */
     }
 
     .projectContainer {
-        border: solid white;
+        /* border: solid white; */
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-content: center;
-        height: 90%;
-        width: 70%;
     }
 
     .pageTitle {
         /* border: solid red; */
-        margin-top: 20px;
+        padding-top:5px;
         height: 100px;
-        text-align:center;
+        text-align: center;
     }
 
     .leftArrowBox {
-        border: solid red;
+        /* border: solid red; */
         display: flex;
         overflow: hidden;
         width: 15%;
@@ -67,15 +54,12 @@
     }
 
     .rightLinks {
-        border: solid red;
+        /* border: solid red; */
         display: flex;
-        /* padding-right:10px; */
         flex-direction: column;
-        /* border: solid orange; */
         justify-content: center;
         align-items: self-end;
         animation: linkFadeinRight .8s;
-        /* height:100%; */
         width: 100%;
     }
 
@@ -97,7 +81,7 @@
     }
 
     .rightLinkBox {
-        border: solid green;
+        /* border: solid green; */
         display: flex;
         width: 15%;
         flex-direction: column;
@@ -113,38 +97,39 @@
 
     .projects {
         /* border-top: solid #738FA7; */
-        display:flex;
-        flex-wrap:wrap;
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         height: 20%;
     }
 
     .project {
         width: 40%;
-        border: solid pink;
+        /* border: solid pink; */
         /* height: 100%; */
         margin: 1.5em;
-        display:flex;
+        display: flex;
         flex-direction: column;
         align-items: center;
         transition: transform .8s
     }
 
     .project:hover {
+        /* width:20%; */
         border: solid #0C4160;
         border-radius: 20px;
         transform: scale(1.1);
     }
 
-    .projectName{
-        text-align:center;
+    .projectName {
+        text-align: center;
     }
 
     .pjImg {
         border: solid #738FA7;
         margin: 5px;
         /* height: 100%; */
-        width:80%;
+        width: 40%;
     }
 
     .pjLinkDiv {
@@ -172,7 +157,7 @@
     }
 
     .dropdown {
-        border: solid red;
+        /* border: solid red; */
         width: 100%;
         /* height:100%; */
     }

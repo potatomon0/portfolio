@@ -5,27 +5,28 @@
         width:100%;
     }
     .main {
-        border: solid red;
+        /* border: solid red; */
         background-color: #071330;
-        height:600px;
-        /* align-content: center;
-        justify-content: space-between; */
+        align-content: center;
+        height: 100vh;
     }
 
     .mainContent {
-        border: solid green;
+        /* border: solid green; */
         display: flex;
-        justify-content: space-between;
         width:100%;
         height: 100%;
     }
 
     .linkIcon {
-        height: 30px;
+        height: 50px;
+        margin:5px;
+        border: solid #C3CEDA;
+        border-radius: 5px;
     }
 
     .mainMylinks {
-        border: solid pink;
+        /* border: solid pink; */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -54,25 +55,25 @@
     }
 
     .textContainer {
-        border:solid red;
+        /* border:solid red; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-size: 13px;
+        font-size: 25px;
         color: #C3CEDA;
-        width:70%;
+        width:100%;
     }
 
     .mainTextP1 {
-        text-align: center;
-        width: 450px;
+        width: 870px;
         white-space: nowrap;
         overflow: hidden;
         animation: mainText 2s steps(45, end), blink-caret 0.5s step-end infinite alternate;
+        animation-fill-mode: both;
     }
     .mainTextP2 {
-        width: 450px;
+        width: 870px;
         white-space: nowrap;
         overflow: hidden;
         animation: mainText 2s steps(45, end), blink-caret 0.5s step-end infinite alternate;
@@ -80,7 +81,7 @@
         animation-delay: 2s;
     }
     .mainTextP3 {
-        width: 450px;
+        width: 870px;
         white-space: nowrap;
         overflow: hidden;
         animation: mainText 2s steps(45, end), blink-caret 0.5s step-end infinite alternate;
@@ -89,7 +90,7 @@
     }
 
     .mainTextP4 {
-        width: 450px;
+        width: 750px;
         white-space: nowrap;
         overflow: hidden;
         animation: mainText 2s steps(45, end), blink-caret 0.5s step-end infinite alternate;
@@ -108,7 +109,7 @@
     }
 
     .rightArrowBox {
-        border: solid red;
+        /* border: solid red; */
         display: flex;
         width: 200px;
         flex-direction: column;
@@ -161,7 +162,10 @@
         overflow: hidden;
         cursor: pointer;
     }
-
+    menuImg{
+        height:50px;
+        width:50px;
+    }
     a {
         color: #C3CEDA;
     }

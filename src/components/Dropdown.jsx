@@ -27,7 +27,7 @@ function Dropdown(props){
     <div className='dropdown'>
       <div className="menu-container" ref={menuRef}>
         <div className="menu-trigger" onClick={()=>{setOpen(!open)}}>
-          <img src={dropdownIcon} alt="" />
+          <img src={dropdownIcon} alt="" className="menuImg"/>
           </div>
           <div className={`dropdown-menu ${open ? 'active':'inactive'}`}>
             <ul>

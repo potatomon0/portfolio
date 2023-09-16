@@ -10,7 +10,7 @@ import projectInfo from '../models/projectInfo'
 import Navbar from '../components/Navbar'
 
 function Projects() {
-  let { setOpen} = useContext(AppContext)
+  let { setOpen, currentProject, setCurrentProject } = useContext(AppContext)
   const [done, setDone] = useState(undefined)
   useEffect(() => {
     setOpen(false);
@@ -38,24 +38,28 @@ function Projects() {
             </h1>
             {/* <div className="filterSection">Sort by tag</div> */}
             <div className="projects">
-              
-              {projectInfo.map((project,i) => {
-                return(
-                  <div className = 'project'>
-                    <img src={require(`../img/${project.url}.png`)} alt="" className="pjImg"/>
-                  <Link to={`/ProjectInfo/${project.name}`} key={i}>
-                    {/* <div className="project"> */}
-                      <div className = 'projectName'>
-                      {project.name}
+              {projectInfo.map((project, i) => {
+                  const handleClick=()=>{
+                    setCurrentProject(project)
+                    // window.localStorage.setItem('currentProject', currentProject);
+                  }
+                return (
+                  <div className='project' onClick={handleClick} key={i}>
+                    <img src={require(`../img/${project.img}.png`)} alt="" className="pjImg" />
+                    <Link to={`/ProjectInfo/${project.name}`} >
+                      {/* <div className="project"> */}
+                      <div className='projectName'>
+                        {project.name}
                       </div>
                       <div>
-                        {project.intro}
+                        {project.headline}
                       </div>
                       {/* </div> */}
                     </Link>
-                    </div>
-                    )}
-                    )}
+                  </div>
+                )
+              }
+              )}
               {/* <div className="project">
                 <Link to="/Project1" style={{ textDecoration: 'none', color: '#C3CEDA' }}><div className="pjLinkDiv"><img src={pj1Img} alt="" className="pjImg" /><h5>Project1</h5></div></Link>
               </div>

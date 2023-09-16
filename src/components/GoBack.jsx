@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from './GoBack.module.css'
 
 function GoBack() {
   return (
-    <div><img src="https://banner2.cleanpng.com/20190911/czr/transparent-arrow-icon-back-icon-left-icon-5d799c0bb08602.2886129915682508917231.jpg" alt="" /></div>
+    <a href="/Projects"><img src="https://call2recycle.s3.amazonaws.com/us-wordpress/20170127140840/goback-button.png" alt="" className={`${styles.goBackImg}`}/></a>
   )
 }
 
