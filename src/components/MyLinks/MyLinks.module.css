@@ -1,0 +1,26 @@
+.leftLinks{
+    display: flex;
+    flex-direction: column;
+    border: solid orange;
+    justify-content: center;
+    align-items: baseline;
+    animation: linkFadeinLeft .8s;
+}
+
+@keyframes linkFadeinLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    20% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+}
+.linkIcon {
+    height: 50px;
+    margin:5px;
+    border: solid #C3CEDA;
+    border-radius: 5px;
+}

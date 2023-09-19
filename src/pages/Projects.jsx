@@ -1,7 +1,7 @@
 import { useState, useEffect, useContext } from 'react'
 import './Projects.css'
 import { AppContext } from '../contexts/context'
-import MyLinks from '../components/MyLinks'
+import MyLinks from '../components/MyLinks/MyLinks'
 import Dropdown from '../components/Dropdown'
 import LeftArrow from '../components/LeftArrow'
 import { Link } from 'react-router-dom'
