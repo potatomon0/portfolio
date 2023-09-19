@@ -3,7 +3,7 @@ import { useContext, useEffect } from 'react'
 import { AppContext } from '../contexts/context'
 import styles from './ProjectInfo.module.css'
 import Dropdown from '../components/Dropdown'
-import GoBack from '../components/GoBack'
+import GoBack from '../components/GoBack/GoBack'
 // projectInfo from '../models/projectInfo'
 
 function ProjectInfo() {

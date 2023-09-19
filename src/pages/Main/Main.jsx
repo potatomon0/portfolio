@@ -1,14 +1,13 @@
 import { useContext,useState,useEffect } from 'react'
-import { AppContext } from '../contexts/context'
-import RightArrow from '../components/RightArrow'
+import { AppContext } from '../../contexts/context'
+import RightArrow from '../../components/RightArrow'
 // import { Link } from 'react-router-dom'
-import MyLinks from '../components/MyLinks'
+import MyLinks from '../../components/MyLinks'
 import './Main.css'
-import Weather from "../components/Weather";
-import Dropdown from '../components/Dropdown'
-import MainText from '../components/MainText'
+import Dropdown from '../../components/Dropdown'
+import MainText from '../../components/MainText'
 import ReactLoading from 'react-loading'
-import Navbar from '../components/Navbar'
+import Navbar from '../../components/Navbar'
 
 function Main() {
     let {setOpen} = useContext(AppContext)

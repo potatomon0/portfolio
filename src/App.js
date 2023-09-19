@@ -1,13 +1,9 @@
 import React, { useContext, useEffect } from 'react';
 import {AppContext} from './contexts/context'
 import { Route, Routes } from 'react-router-dom'
-import Main from './pages/Main'
+import Main from './pages/Main/Main'
 import Projects from './pages/Projects'
 import ProjectInfo from './pages/ProjectInfo'
-import Project1 from './pages/Project1'
-import Project2 from './pages/Project2'
-import Project3 from './pages/Project3'
-import Project4 from './pages/Project4'
 
 function App() {
   const { getIP } = useContext(AppContext)
