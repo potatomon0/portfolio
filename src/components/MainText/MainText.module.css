@@ -1,0 +1,42 @@
+.mainTextP1 {
+    width: 870px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: mainText 2s steps(45, end), blink-caret 0.5s step-end infinite alternate;
+    animation-fill-mode: both;
+}
+.mainTextP2 {
+    width: 870px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: mainText 2s steps(45, end), blink-caret 0.5s step-end infinite alternate;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+}
+.mainTextP3 {
+    width: 870px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: mainText 2s steps(45, end), blink-caret 0.5s step-end infinite alternate;
+    animation-fill-mode: both;
+    animation-delay: 4s;
+}
+
+.mainTextP4 {
+    width: 750px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: mainText 2s steps(45, end), blink-caret 0.5s step-end infinite alternate;
+    animation-fill-mode: both;
+    animation-delay: 6s;
+}
+
+@keyframes mainText {
+    0% {
+        width: 0;
+    }
+}
+
+.mainContents {
+    display: flex;
+}

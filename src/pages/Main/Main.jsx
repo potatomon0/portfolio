@@ -5,7 +5,7 @@ import RightArrow from '../../components/RightArrow'
 import MyLinks from '../../components/MyLinks/MyLinks'
 import './Main.css'
 import Dropdown from '../../components/Dropdown'
-import MainText from '../../components/MainText'
+import MainText from '../../components/MainText/MainText'
 import ReactLoading from 'react-loading'
 import Navbar from '../../components/Navbar'
 
