@@ -1,0 +1,22 @@
+.rightArrow {
+    font-size: 60px;
+    /* border: solid blue; */
+    color: #C3CEDA;
+    height: 70px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rightArrow 1.6s;
+}
+@keyframes rightArrow {
+    0% {
+        opacity: 0;
+        transform: translateX(105%);
+    }
+
+    30% {
+        opacity: 0;
+        transform: translateX(105%);
+    }
+}

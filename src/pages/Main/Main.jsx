@@ -1,6 +1,6 @@
 import { useContext,useState,useEffect } from 'react'
 import { AppContext } from '../../contexts/context'
-import RightArrow from '../../components/RightArrow'
+import RightArrow from '../../components/RightArrow/RightArrow'
 // import { Link } from 'react-router-dom'
 import MyLinks from '../../components/MyLinks/MyLinks'
 import './Main.css'
