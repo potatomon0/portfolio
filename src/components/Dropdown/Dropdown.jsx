@@ -1,10 +1,11 @@
 import {useContext,useEffect,useRef} from 'react';
-import {AppContext} from '../contexts/context'
+import {AppContext} from '../../contexts/context'
 import DropdownItem from './DropdownItem'
-import home from '../img/home.png'
-import profile from '../img/user.png'
+import home from '../../img/home.png'
+import profile from '../../img/user.png'
 import {Link} from 'react-router-dom'
-import dropdownIcon from '../img/dropdown_icon.png'
+import dropdownIcon from '../../img/dropdown_icon.png'
+import './Dropdown'
 
 function Dropdown(props){
   let {open,setOpen}=useContext(AppContext);

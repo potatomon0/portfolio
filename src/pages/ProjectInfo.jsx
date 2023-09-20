@@ -2,7 +2,7 @@ import { useContext, useEffect } from 'react'
 // import {useParams} from 'react-router-dom'
 import { AppContext } from '../contexts/context'
 import styles from './ProjectInfo.module.css'
-import Dropdown from '../components/Dropdown'
+import Dropdown from '../components/Dropdown/Dropdown'
 import GoBack from '../components/GoBack/GoBack'
 // projectInfo from '../models/projectInfo'
 
